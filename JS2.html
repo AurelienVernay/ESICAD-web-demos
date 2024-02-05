@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ESICAD JS Exemple 2</title>
+    <script src="JS2.js" defer></script>
+    <link rel="stylesheet" href="./JS2.css" />
+  </head>
+  <body>
+    <h1>Exemple 2 : Créer des onglets dans la page</h1>
+    <nav>
+      <a class="tab-header active" href="#article-1" data-target="article-1">
+        Onglet 1
+      </a>
+      <a class="tab-header" href="#article-2" data-target="article-2">
+        Onglet 2
+      </a>
+      <a class="tab-header" href="#article-3" data-target="article-3">
+        Onglet 3
+      </a>
+    </nav>
+    <main>
+      <section>
+        <article id="article-1" class="show">
+          Contenu de l'onglet 1 (article 1)
+        </article>
+        <article id="article-2">Contenu de l'onglet 2 (article 2)</article>
+        <article id="article-3">Contenu de l'onglet 3 (article 3)</article>
+      </section>
+    </main>
+  </body>
+</html>
