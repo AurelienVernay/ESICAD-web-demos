@@ -2,6 +2,8 @@
 
 Pour afficher les pages, utilisez votre serveur Wamp en créant un virtual host vers le répertoire cloné de ce projet (cf. TP1 pour retrouver la méthode).
 
+💡 _Vous pouvez également utiliser l'extension VSCode Live Server sur le projet_
+
 Les pages montrées sont disponibles aux URLS :
 
 - `<URL de votre virtualHost>/transitions.html`
